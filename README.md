@@ -1,9 +1,10 @@
-# Project template
+# Data driven project template
 
-The `project template repository` aims to be useful to preserve the reproducibility of every data related project and using and to use some script snippets/templates/skeleton.
+The `data driven project template repository` aims to be useful to preserve the reproducibility of every data related project and using and to use some script snippets/templates/skeleton.
 
 The **Project Organization** follows a similar structure showed in [Cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science/tree/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D)
 
+```sh
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -47,3 +48,4 @@ The **Project Organization** follows a similar structure showed in [Cookiecutter
 │       └── visualize.py
 │
 └── templates          <- Scripts to be used as a template
+```
