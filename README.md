@@ -17,9 +17,7 @@ The **Project Organization** follows a similar structure showed in [Cookiecutter
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-nb_template.ipynb`.
+├── notebooks          <- Jupyter notebooks. Template -> `1.0-nb_template.ipynb`.
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
