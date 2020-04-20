@@ -18,6 +18,7 @@ TO DO:
 """
 
 from __future__ import absolute_import, division, print_function
+import argparse
 
 __author__ = "Fernando Pozo"
 __copyright__ = "Copyright 2020"
@@ -63,11 +64,10 @@ def foo(arg1:list, arg2:str = 'a', arg3:int = 2) -> str:
 
 # Main body
 def main():
-    args = sys.argv[1:]
-
-    if not args:
-        print('usage: [--flags options] [inputs] ')
-        sys.exit(1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-v", "--verbose", help="increase output verbosity",
+                        action="store_true")
+    args = parser.parse_args()
 
 if __name__ == '__main__':
     main()
