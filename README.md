@@ -47,3 +47,4 @@ The **Project Organization** follows a similar structure showed in [Cookiecutter
 │
 └── templates          <- Scripts to be used as a template
 ```
+# ml-project-template
